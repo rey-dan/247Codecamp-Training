@@ -4,8 +4,11 @@ git init // to iniatialize git or start new local git repo.
 git clone <repo_url>  // creates a copy of that repo to your local machine
 git remote add origin <repo_url>  // adding a remote repo
 git branch  // create branch of soemone else or your own repo.
-git add <file> - // add your file to be stage.
-git commits -m "comment" // create a save point. -m // notes or name of that save point.
+git add <file> // add your file to be stage.
+git add . //add all files to stage.
+git  rm --cached <filename> //removes the committed file from staging step.
+git reset HEAD <file> // to unstage.
+git commits -m "description" // create a save point / snapshot. -m // notes or message of that save point.
 git status // checks your files and staging area or checks new changes.
 git push  // submit or upload your files to github or remote repo.
 git pull or fetch // downloads remote repo and merge with your working local copy.
