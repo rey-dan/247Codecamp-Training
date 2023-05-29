@@ -16,4 +16,8 @@ Functions discussed:
 14. git branch -D (branch-name) - Deletes a branch even if it is not have been merge yet
 15. git checkout -b (branch-name) - Shortcut for checking out on a new branch you just created
 16. git merge (branch-name) - Merges the specified branch to the current branch
+17. git push - Uploads local commits to a remote repository
+18. git pull - Fetches the latest changes from a remote repository and automatically merge them into your current branch
+
+
 
