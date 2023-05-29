@@ -1,0 +1,7 @@
+1. open command prompt 
+2. type git -v
+3. if not recognized, download thru browser
+4. check if there is github acct
+5. if none, sign up thru email
+6. in command prompt, configure the email used 
+	git config --global user.email "name@email.com"
