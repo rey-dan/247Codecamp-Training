@@ -28,12 +28,40 @@
 		- this will throw your email address
 	git config --list 
 		- this will show the list of configured information to  your git 
+	git init 
+		- this will initialized git on the selected folder and will start to monitor any changes that will happen on the directory
+	git config - configure the username and email address 
+	git init -  initialize the local git repository
+	git add - is use to add one or more staging files in the repository
+	git diff - is use to see the changes made to the file
+	git commit - is use to commit changes to head but not to the remote repository
+	git reset - is use to undo local changes to the state of the a git repository
+	git status -  is use to see the status of the directory for the files that has been added or created or deleted.
+	git merge -  is use to join branches into an active branch and combines multiple sequences of commits into a single branch
+	git push - is use to upload content from local repository to the remote repository
+	git pull - this will download the remote repository to the local repository
+	git fetch - downloads the content from the required remote repository
+	git pull - is used to fetch and merge changes from the remote repository to the local repository
+	rm -rf .git - is used to remove .git folder in a folder	
+
+
+
+⚡️⚡️⚡️⚡️⚡️⚡️ MANAGING YOUR LOCAL DIR:
+
+	cd - this means change directory and should be written in small letters
+	cd .. - cd(space).. jumps two folders up
+	ls - this will list all the files in the selected folder
+	pwd - this will tell you your current directory path 
+	cd ~ - this will jumps to the main folder/home dir or drive c
+	mkdir - this will make directory to the selected folder
+	touch - will create a file name
+	rm - this will remove the file 
+	rmdir - this will remove the directory
 	
-
-
-⚡️⚡️⚡️⚡️⚡️⚡️ MANAGING YOUR DIR:
-
-	cd
-		- this means change directory and should be written in small letters
-	cd .. 
-		- cd(space).. 
+	
+Resolving issue for non-fast-forward error when pushing:
+	https://docs.github.com/en/get-started/using-git/dealing-with-non-fast-forward-errors
+	
+	
+How to Fork and configuring Git to sync your fork with the upstream repo:
+	https://docs.github.com/en/get-started/quickstart/fork-a-repo
