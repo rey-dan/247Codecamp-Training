@@ -1,0 +1,47 @@
+--Git and Github--
+Stores any revision that you made from the start. Git is used on your local machine and github is used online,
+allowing us to collaborate with other programmers in our team, locally working on our own versions
+without messing up the main codebase.
+
+--Installing Git and Git commands--
+** We should install git in our local machine to be able to use them. https://git-scm.com/download
+** Here are a few git commands that we will mostly use:
+ * cd <directory or folder you want to go to> - change directory ----------------------	(cd Documents)
+ * ls - list contents of the current folder you're in ---------------------------------	(ls)
+ * mkdir <name of folder that you want to make> - make directory ----------------------	(mkdir test)
+ * touch <name of file plus extension name that you want to make> - create a file -----	(touch test.txt)
+
+--How Git Works--
+Git can track changes you made over time while working on your own machine while still having access to the
+changes  made by others.
+
+Git uses a commit system to track and save changes to your code. More like a save point in games. You can go back
+to it later if you decide you want to go back to that 'save point' anytime.
+
+If you are working with other collaborators (which is what mostly happens) you can use git to share your code with them.
+You need to create your own repository and push your changes to it and other developers will pull your changes from that.
+
+
+
+--Creating a Repository--
+A repository is your project container that you want to track with git. It can be local (in your local machine) or remote
+(online like github)
+To create a repository just go to the folder that you want to work on, and type
+$ git init
+on your gitbash. You can do this whether your project folder is empty or already has existing files in it.
+
+--Staging Files--
+When we modify a file or made changes and we want to commit it, we need to pass through the staging phase first before committing.
+To know which files are already currently in the staging area, ready to be committed, type in
+$ git status
+
+If you have untracked files, you will need to stage them first. Type in
+$ git add <name of file>
+
+When you check the status again, you will see the files that are ready to be committed.
+
+If you mistakenly staged a file or simply changed your mind, you can remove them in the staging area by typing
+$ git rm --cached <file>
+
+If you want to stage all untracked files, you can type in
+$ git add .
