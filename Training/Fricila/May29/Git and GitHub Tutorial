@@ -6,6 +6,8 @@ Why use Git?
 
 Git Commands:
 
+update
+
 git --version - to see current version of git installed in your pc
 git config --global user.name "sample" - use to setup git user name
 git config --global user.email "sample"  - use to setup git user email
