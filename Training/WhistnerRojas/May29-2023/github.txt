@@ -1,0 +1,11 @@
+git config --global user.name "yourname" // for tracking purposes  - to know whos changes it is.
+git config --global user.email "youremail@mail.com" //
+git clone <repo_url>  // creates a copy of that repo to your local machine
+
+git init // to iniatialize git or start new local git repo.
+
+git add <file> - // add your file to be stage.
+git commits -m "comment" // to name the save point. -m notes of that save point.
+git status // checks your files and staging area or checks new changes.
+git push  // submit or upload your files to github or remote repo.
+git pull  // downloads remote repo and merge with your copy.
