@@ -182,6 +182,8 @@ git add .
 
 git commit -m "message"
 
+git push origin <branch name>
+
 - on your forked repo click "New pull request"
 
 - click "Create pull request" and click "create pull request"
