@@ -1,0 +1,17 @@
+Why use Git?
+
+-for developer collaboration to oversee team progress and code development
+-track changes to code files
+
+
+git init - initialized empty git repository / to create repository
+git status - to see if there are changes added or modified in files
+git add - to add change in the working directory for preparation to the staging area
+git commit -m - should be something descriptive and use to saves all current staged or recenlty git added files.
+git branch -a - to see all branches created
+git checkout -b feature/[sample] - copied the main branch and create a clone branch and can work here so the main branch will not affect.
+git merge - allows to merge branches 
+
+
+
+
