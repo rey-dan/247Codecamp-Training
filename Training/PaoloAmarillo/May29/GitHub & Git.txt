@@ -100,6 +100,16 @@ push local repository to remote repo
 
 git push urlForRepo Master - To push to gitHub 
 
+git remote add origin https://github.com/rey-dan/247Codecamp-Training.git
+(use an allias instead)
+
+git pull origin master- to merge the maaster to local update files
+
+
+
+Forking (For Open Source Projects)
+
+git clone urlLink - to clone to Directory
 
 
 
