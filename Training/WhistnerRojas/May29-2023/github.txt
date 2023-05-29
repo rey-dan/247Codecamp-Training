@@ -2,10 +2,10 @@ git config --global user.name "yourname"
     //for tracking purposes  - to know whos changes it is.
 git config --global user.email "youremail@mail.com"
 
-git init 
-    //to initialize git or start new local git repo.
 git clone <repo_url>
     //creates a copy of that repo to your local machine
+git init 
+    //to initialize git or start new local git repo.
 git remote add origin <repo_url>  
     //adding a remote repo
 git add <file> 
