@@ -50,5 +50,7 @@ git branch -D <branch_name>
     //deletes branch that has not yet merge.
 git branch -b <branch_name>
     //creates a branch and checksout at the same time.
+git merge <branch_name>
+    //you should be in the main branch when merging a branch.
 git pull or fetch
     //downloads remote repo and merge with your working local copy.
