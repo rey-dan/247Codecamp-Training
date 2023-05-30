@@ -33,6 +33,28 @@ Step 3: To check on your version, key in git in your search bar (e.g. files). If
 "Git for Windows 2.40.0 is currently installed."
 
 
+Right now, you are good to go! Here are the commands that you need to get familiar with:
+
+git init - from the word "init" - this means to initialize the new Git repository, or just to set it up. 
+
+git add - this is to add the file that you wish to upload
+
+git status - this command would show if there are changes
+
+git branch - this would show the branches (or file) that you are managing from your end
+
+git pull - when you are a part of a team, this would update their leader who controls the main branch that you would like to commit the updates from your end
+
+git commit -m "update" - this is to show that you would like to commit the file from your end to be added to the main branch.
+
+git push - this updates the Git repository with the file (called a commit) made from your end. 
+When the leader (who is handling the main branch now merges your branch) so that the updates would now be reflected in the main branch. 
+
+
+
+
+
+
 
 
 
