@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. Git & GitHub Tutorial for Beginners #1 - Why Use Git?
 
 https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-storage-and-bandwidth-usage
@@ -127,4 +128,7 @@ CONTINUE
 
 
 
+=======
+May 29 NOTES:
+>>>>>>> 36dede57f4364ffa539f4d5a6d8d2e2bdf711446
 
